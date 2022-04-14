@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B56E4377-0DEA-4B52-B056-2B30FDD37F17}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{B56E4377-0DEA-4B52-B056-2B30FDD37F17}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="explosion" ID="{DFE13716-C02E-4DAA-AB77-C7ADC64A0531}" ShortID="723621504">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B27178D-1357-4B4E-8E1F-C10989B5F4D1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3393A434-053A-4C26-8B1E-2126C41452FB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="explosion" ID="{DAB8DFC6-156D-43A2-BFDB-BF891E459C77}">
+							<Language>SFX</Language>
+							<AudioFile>explosion.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="636364458"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="explosion" ID="{DAB8DFC6-156D-43A2-BFDB-BF891E459C77}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

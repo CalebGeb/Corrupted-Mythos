@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{18B12220-442E-49A2-AB8B-5598EA34A266}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{18B12220-442E-49A2-AB8B-5598EA34A266}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="BOOmTest" ID="{C23F54B5-5207-45A7-993F-F564F3BC0F05}">
+					<ChildrenList>
+						<Action Name="" ID="{97CD9FF7-6EEE-4B8C-BBD6-1C4A3506BF3E}" ShortID="949915588">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="explosion" ID="{DFE13716-C02E-4DAA-AB77-C7ADC64A0531}" WorkUnitID="{B56E4377-0DEA-4B52-B056-2B30FDD37F17}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

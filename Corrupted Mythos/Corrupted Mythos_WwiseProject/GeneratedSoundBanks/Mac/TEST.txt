@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2974598180	BOOmTest			\Default Work Unit\BOOmTest	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	636364458	explosion	Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\.cache\Mac\SFX\explosion_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\explosion		762376
+
