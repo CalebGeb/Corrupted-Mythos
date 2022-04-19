@@ -16,5 +16,20 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
+		<SoundBank Id="3157003241" Language="SFX" Hash="727015542">
+			<ObjectPath>\SoundBanks\Default Work Unit\TEST</ObjectPath>
+			<ShortName>TEST</ShortName>
+			<Path>TEST.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2974598180" Name="BOOmTest" ObjectPath="\Events\Default Work Unit\BOOmTest" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="636364458" Language="SFX">
+							<ShortName>explosion.wav</ShortName>
+							<Path>SFX/explosion_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
