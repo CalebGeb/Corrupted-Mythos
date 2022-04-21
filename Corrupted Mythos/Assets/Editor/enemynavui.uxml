@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:TextField picking-mode="Ignore" label="Target" value="filler text" text="filler text" name="target" />
+    <ui:Toggle label="Facing Right" name="facing" />
+    <ui:TextField picking-mode="Ignore" label="Attack State" value="filler text" text="filler text" name="attackstate" />
+    <ui:Foldout text="Movement Settings" name="moveset">
+        <ui:TextField picking-mode="Ignore" label="Speed" value="filler text" text="filler text" name="speed" />
+        <ui:TextField picking-mode="Ignore" label="Next WP Distance" value="filler text" text="filler text" name="wpdist" />
+    </ui:Foldout>
+    <ui:Foldout text="References" value="true" name="refs">
+        <ui:TextField picking-mode="Ignore" label="Enemy Manager" value="filler text" text="filler text" name="em" />
+        <ui:IMGUIContainer focusable="false" style="height: 14px;" />
+        <ui:Foldout text="Animation">
+            <ui:Toggle label="Walk" name="dowalk" />
+            <ui:IMGUIContainer focusable="false" style="height: 14px;" />
+            <ui:TextField picking-mode="Ignore" label="Animator" value="filler text" text="filler text" name="anim" />
+            <ui:IMGUIContainer focusable="false" style="height: 14px;" />
+            <ui:Toggle label="Spine" name="spine" />
+            <ui:TextField picking-mode="Ignore" label="Spine Animator" value="filler text" text="filler text" name="sanim" />
+        </ui:Foldout>
+    </ui:Foldout>
+    <ui:Foldout text="Bypass Options" name="bypass">
+        <ui:Toggle label="Do Bypass" name="dobypass" />
+        <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" text="Bypass Distance" name="bdist" />
+    </ui:Foldout>
+</ui:UXML>

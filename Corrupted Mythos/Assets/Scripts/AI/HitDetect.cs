@@ -6,6 +6,8 @@ public class HitDetect : MonoBehaviour
 {
     public StateManager em;
     public Animator fganim;
+    [SerializeField]
+    SpineAnimCntrler sanim;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -13,6 +15,11 @@ public class HitDetect : MonoBehaviour
         {
             em.attack = true;
             fganim.SetTrigger("Attack");
+            if(sanim != null)
+            {
+                sanim.StopSpineAnim(0);
+                sanim.DoSpineAnim(0, "Attack");
+            }
         }
     }
 }

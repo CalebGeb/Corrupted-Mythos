@@ -47,6 +47,8 @@ public class PlayerMovement : MonoBehaviour
     public GameObject beserkLocator;
     public GameObject GodEffectPref;
 
+    public bool isDash = false;
+
     private void OnEnable()
     {
         EnemyHealth.EnemyDied += IncrementKill;
@@ -292,6 +294,7 @@ public class PlayerMovement : MonoBehaviour
     {
         //preperatory work
         paused = true;
+        isDash = true;
         float t = 0;
         playerHealth.inv = true;
         dashbox.SetActive(true);
@@ -334,6 +337,7 @@ public class PlayerMovement : MonoBehaviour
         }
         dashbox.SetActive(false);
         paused = false;
+        isDash = false;
         animatior.speed = 1f;
     }
 

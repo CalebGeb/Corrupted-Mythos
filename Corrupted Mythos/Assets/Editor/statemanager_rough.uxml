@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Foldout text="States" name="StateContainer" style="flex-direction: column;">
+        <ui:Foldout text="Valid States" name="ValidStates" />
+        <ui:TextField picking-mode="Ignore" label="Current State" value="filler text" />
+        <ui:Toggle label="Idle" value="true" />
+        <ui:Toggle label="Attack" value="false" />
+        <ui:TextField picking-mode="Ignore" label="Collisions" value="filler text" text="filler text" name="collisions" />
+    </ui:Foldout>
+    <ui:Foldout text="Scripts" name="LinkedScripts">
+        <ui:TextField picking-mode="Ignore" label="Health" value="filler text" text="filler text" name="Health" />
+        <ui:TextField picking-mode="Ignore" label="Player" value="filler text" text="filler text" name="Player" />
+    </ui:Foldout>
+    <ui:Foldout text="Navigation" name="NavData">
+        <ui:TextField picking-mode="Ignore" label="Navigator" value="filler text" text="filler text" name="Nav_Script" />
+        <ui:TextField picking-mode="Ignore" label="Point One" value="filler text" text="filler text" name="nav_pont_one" />
+        <ui:TextField picking-mode="Ignore" label="Point Two" value="filler text" text="filler text" name="nav_pont_two" />
+    </ui:Foldout>
+    <ui:Foldout text="Timers" name="Timers">
+        <ui:TextField picking-mode="Ignore" label="Timer" value="filler text" text="filler text" name="tmr" />
+        <ui:TextField picking-mode="Ignore" label="Stagr" value="filler text" text="filler text" name="stagr" />
+    </ui:Foldout>
+    <ui:Foldout text="Bat Fields" name="Bat">
+        <ui:Button text="Y Curve" display-tooltip-when-elided="true" name="ycurve" />
+        <ui:TextField picking-mode="Ignore" label="Bat Hit Detection" value="filler text" text="filler text" name="hit_det" />
+        <ui:TextField picking-mode="Ignore" label="Bat Attack Hit Box" value="filler text" text="filler text" name="hit_box" />
+    </ui:Foldout>
+    <ui:Foldout text="Spine Fields" name="Spine">
+        <ui:Toggle label="Spine" name="spine_toggle" />
+    </ui:Foldout>
+</ui:UXML>

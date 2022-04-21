@@ -15,9 +15,14 @@ public class Obstacles : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             script = collision.gameObject.GetComponent<PlayerHealth>();
-            script.minusHealth(damage);
-            script.knockAround(flip, knockup);
-            StartCoroutine(IFrames());
+            script.block = false;
+            bool dash = collision.gameObject.GetComponent<PlayerMovement>().isDash;
+            if (!dash)
+            {
+                script.minusHealth(damage, false);
+                script.knockAround(flip, knockup);
+                StartCoroutine(IFrames());
+            }
         }
     }
 

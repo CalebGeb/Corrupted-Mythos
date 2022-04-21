@@ -24,8 +24,7 @@ public class SpineAnimCntrler : MonoBehaviour
         {
             if (sAnimation.AnimationState.GetCurrent(indx) == null)
             {
-                sAnimation.AnimationState.ClearTrack(indx);
-                sAnimation.AnimationState.ClearTrack(3);
+                StopAllSpineAnim();   
                 sAnimation.AnimationState.SetAnimation(indx, name, loop);
             }
         }
@@ -51,6 +50,14 @@ public class SpineAnimCntrler : MonoBehaviour
     public void StopSpineAnim(int indx)
     {
         sAnimation.AnimationState.ClearTrack(indx);
+    }
+
+    public void StopAllSpineAnim()
+    {
+        sAnimation.AnimationState.ClearTrack(3);
+        sAnimation.AnimationState.ClearTrack(2);
+        sAnimation.AnimationState.ClearTrack(1);
+        sAnimation.AnimationState.ClearTrack(0);
     }
 
     void QueryCompleteAnim(int trackindx)

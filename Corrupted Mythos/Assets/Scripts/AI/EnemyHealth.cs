@@ -14,6 +14,9 @@ public abstract class EnemyHealth : MonoBehaviour
     float stagTime;
     [SerializeField]
     bool doDeath;
+    [SerializeField]
+    bool dontHurt;
+
     
     [Space]
     [SerializeField]
@@ -36,13 +39,16 @@ public abstract class EnemyHealth : MonoBehaviour
     {
         health -= damage;
 
-        if (animator != null)
+        if (!dontHurt)
         {
-            animator.SetTrigger("Hit");
-        }
-        else
-        {
-            sAnimator.DoSpineAnim(2, "Idle");
+            if (animator != null)
+            {
+                animator.SetTrigger("Hit");
+            }
+            else
+            {
+                sAnimator.DoSpineAnim(2, "Idle");
+            }
         }
 
         if(knockback == 0)
