@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class OWFrostGiantHealth : EnemyHealth
 {
+    public AK.Wwise.Event victory;
+
+
     bool inv = true;
     [Space]
     [SerializeField]
@@ -32,6 +35,7 @@ public class OWFrostGiantHealth : EnemyHealth
 
         if (script != null)
         {
+            victory.Post(gameObject);
             script.killCount++;
             script.GodBarctrl.IncrementBar(script.GodBarctrl.GetFullSize() / 15);
         }

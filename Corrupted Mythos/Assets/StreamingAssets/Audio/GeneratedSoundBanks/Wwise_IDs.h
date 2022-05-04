@@ -13,6 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID ANVIL_GUY = 2900668117U;
+        static const AkUniqueID ANVILSTOP = 3190589889U;
+        static const AkUniqueID AXTRAP = 2870365479U;
         static const AkUniqueID CHCKPOINT = 2132724612U;
         static const AkUniqueID ENEMYDAMAGE = 1879435608U;
         static const AkUniqueID ENEMYDEATH = 3249137159U;
@@ -28,7 +31,9 @@ namespace AK
         static const AkUniqueID SETBOSS = 1196794564U;
         static const AkUniqueID SETMINIBOSS = 1875063345U;
         static const AkUniqueID SETTUTORIAL = 2426491381U;
+        static const AkUniqueID SHOOT = 3038207054U;
         static const AkUniqueID STARTMUSIC = 3827058668U;
+        static const AkUniqueID VICTORY = 2716678721U;
     } // namespace EVENTS
 
     namespace STATES

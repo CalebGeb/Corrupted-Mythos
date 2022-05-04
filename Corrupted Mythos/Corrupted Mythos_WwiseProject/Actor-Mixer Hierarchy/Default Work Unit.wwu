@@ -230,7 +230,7 @@
 				</Folder>
 				<Folder Name="Shooty Bois Noise" ID="{6215791A-B1DA-479E-A75C-CA4C23EF102D}" ShortID="890828967">
 					<ChildrenList>
-						<Sound Name="Shoot 1_1" ID="{70E73AAF-B2BF-4EC8-8CC8-C4EEEBE34919}" ShortID="111053253">
+						<RandomSequenceContainer Name="Shoot" ID="{BA08634D-A8EE-4C9A-AC4D-16E694630CCF}" ShortID="59622927">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B27178D-1357-4B4E-8E1F-C10989B5F4D1}"/>
@@ -240,42 +240,55 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Shoot 1_1" ID="{043BAE0C-BF2B-4121-918B-86F2F75094D3}">
-									<Language>SFX</Language>
-									<AudioFile>Shooty Bois Noise\Shoot 1_1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="337131276"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="Shoot 1_1" ID="{70E73AAF-B2BF-4EC8-8CC8-C4EEEBE34919}" ShortID="111053253">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B27178D-1357-4B4E-8E1F-C10989B5F4D1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3393A434-053A-4C26-8B1E-2126C41452FB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Shoot 1_1" ID="{043BAE0C-BF2B-4121-918B-86F2F75094D3}">
+											<Language>SFX</Language>
+											<AudioFile>Shooty Bois Noise\Shoot 1_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="337131276"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Shoot 1_1" ID="{043BAE0C-BF2B-4121-918B-86F2F75094D3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Shoot 2_1" ID="{0C5224E6-EF4A-45A6-8D99-44289A79431D}" ShortID="702763186">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B27178D-1357-4B4E-8E1F-C10989B5F4D1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3393A434-053A-4C26-8B1E-2126C41452FB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Shoot 2_1" ID="{7A86BD12-4238-4BAF-8DDB-CCC90EC4030C}">
+											<Language>SFX</Language>
+											<AudioFile>Shooty Bois Noise\Shoot 2_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="944543173"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Shoot 2_1" ID="{7A86BD12-4238-4BAF-8DDB-CCC90EC4030C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="Shoot 1_1" ID="{043BAE0C-BF2B-4121-918B-86F2F75094D3}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Shoot 2_1" ID="{0C5224E6-EF4A-45A6-8D99-44289A79431D}" ShortID="702763186">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B27178D-1357-4B4E-8E1F-C10989B5F4D1}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3393A434-053A-4C26-8B1E-2126C41452FB}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Shoot 2_1" ID="{7A86BD12-4238-4BAF-8DDB-CCC90EC4030C}">
-									<Language>SFX</Language>
-									<AudioFile>Shooty Bois Noise\Shoot 2_1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="944543173"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="Shoot 2_1" ID="{7A86BD12-4238-4BAF-8DDB-CCC90EC4030C}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Damage" ID="{9A5B7E84-F7C6-47DC-9F3C-119E6518EBEC}" ShortID="942125280">
@@ -808,7 +821,11 @@
 				</Folder>
 				<Folder Name="Ax Trap" ID="{5DBE68AF-B1FB-43C3-A12F-F3E3F6E1B862}" ShortID="233294411">
 					<ChildrenList>
-						<Sound Name="Ax Swing Trap 1" ID="{077ADC7A-AAA4-4436-B5F3-DBA80667F80C}" ShortID="945539198">
+						<RandomSequenceContainer Name="AxTrap" ID="{2F397CFE-3B0C-434D-B13C-9E2903A94F3B}" ShortID="583039988">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B27178D-1357-4B4E-8E1F-C10989B5F4D1}"/>
@@ -818,42 +835,55 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Ax Swing Trap 1" ID="{358D0A1A-9DE2-43A6-B887-68D9364A15A0}">
-									<Language>SFX</Language>
-									<AudioFile>Ax Trap\Ax Swing Trap 1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="270073040"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="Ax Swing Trap 1" ID="{440BB37F-C220-49F4-9985-6F902E3DF275}" ShortID="467104231">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B27178D-1357-4B4E-8E1F-C10989B5F4D1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3393A434-053A-4C26-8B1E-2126C41452FB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ax Swing Trap 1" ID="{D4A2D3AD-493F-4194-A2DB-74D0B8AACCAB}">
+											<Language>SFX</Language>
+											<AudioFile>Ax Swing Trap 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="542712443"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Ax Swing Trap 1" ID="{D4A2D3AD-493F-4194-A2DB-74D0B8AACCAB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ax Swing Trap 2" ID="{40354821-49D6-4785-961C-6F5F729B4569}" ShortID="173179143">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B27178D-1357-4B4E-8E1F-C10989B5F4D1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3393A434-053A-4C26-8B1E-2126C41452FB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ax Swing Trap 2" ID="{99CCF85B-E1D0-4C7A-BF82-1165D41FE153}">
+											<Language>SFX</Language>
+											<AudioFile>Ax Swing Trap 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="522606835"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Ax Swing Trap 2" ID="{99CCF85B-E1D0-4C7A-BF82-1165D41FE153}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="Ax Swing Trap 1" ID="{358D0A1A-9DE2-43A6-B887-68D9364A15A0}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Ax Swing Trap 2" ID="{48E3C44C-4B43-4ECF-8458-EA4C8F80C101}" ShortID="206154564">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B27178D-1357-4B4E-8E1F-C10989B5F4D1}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3393A434-053A-4C26-8B1E-2126C41452FB}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Ax Swing Trap 2" ID="{6D4DFFCC-E4AF-4828-BBAE-A2A02921BFA3}">
-									<Language>SFX</Language>
-									<AudioFile>Ax Trap\Ax Swing Trap 2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="87185728"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="Ax Swing Trap 2" ID="{6D4DFFCC-E4AF-4828-BBAE-A2A02921BFA3}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Sound Name="SpikeSMASH1" ID="{CD778D84-4F3C-4149-90DA-202442BE0E8B}" ShortID="661405312">
@@ -1069,7 +1099,11 @@
 				</Folder>
 				<Folder Name="Anvil Noises" ID="{073BCD4C-B06D-482E-BE99-041088EB577D}" ShortID="282627139">
 					<ChildrenList>
-						<Sound Name="Anvil1" ID="{30D5A297-4BE0-4F0D-9690-339ED53B150E}" ShortID="429241238">
+						<RandomSequenceContainer Name="Anvil" ID="{FA507E31-5F44-42ED-BB76-891EF7ACD1D8}" ShortID="259289897">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B27178D-1357-4B4E-8E1F-C10989B5F4D1}"/>
@@ -1079,65 +1113,78 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Anvil1" ID="{E2666DD1-13A7-4EC9-94E5-85C30167A7A9}">
-									<Language>SFX</Language>
-									<AudioFile>Anvil Noises\Anvil1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="803554638"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="Anvil1" ID="{30D5A297-4BE0-4F0D-9690-339ED53B150E}" ShortID="429241238">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B27178D-1357-4B4E-8E1F-C10989B5F4D1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3393A434-053A-4C26-8B1E-2126C41452FB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Anvil1" ID="{E2666DD1-13A7-4EC9-94E5-85C30167A7A9}">
+											<Language>SFX</Language>
+											<AudioFile>Anvil Noises\Anvil1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="803554638"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Anvil1" ID="{E2666DD1-13A7-4EC9-94E5-85C30167A7A9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Anvil2" ID="{9C86A398-953B-453B-95CB-BB9987014D76}" ShortID="842517288">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B27178D-1357-4B4E-8E1F-C10989B5F4D1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3393A434-053A-4C26-8B1E-2126C41452FB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Anvil2" ID="{EB144669-DCD8-4821-8E39-4C822274CC56}">
+											<Language>SFX</Language>
+											<AudioFile>Anvil Noises\Anvil2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="6639382"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Anvil2" ID="{EB144669-DCD8-4821-8E39-4C822274CC56}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Anvil3" ID="{756955C7-6646-4D7B-9AB3-9DE429A77D09}" ShortID="971220907">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B27178D-1357-4B4E-8E1F-C10989B5F4D1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3393A434-053A-4C26-8B1E-2126C41452FB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Anvil3" ID="{A0052D7E-165D-4A6E-8414-79D58AD18B70}">
+											<Language>SFX</Language>
+											<AudioFile>Anvil Noises\Anvil3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="475354699"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Anvil3" ID="{A0052D7E-165D-4A6E-8414-79D58AD18B70}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="Anvil1" ID="{E2666DD1-13A7-4EC9-94E5-85C30167A7A9}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Anvil2" ID="{9C86A398-953B-453B-95CB-BB9987014D76}" ShortID="842517288">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B27178D-1357-4B4E-8E1F-C10989B5F4D1}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3393A434-053A-4C26-8B1E-2126C41452FB}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Anvil2" ID="{EB144669-DCD8-4821-8E39-4C822274CC56}">
-									<Language>SFX</Language>
-									<AudioFile>Anvil Noises\Anvil2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="6639382"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="Anvil2" ID="{EB144669-DCD8-4821-8E39-4C822274CC56}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Anvil3" ID="{756955C7-6646-4D7B-9AB3-9DE429A77D09}" ShortID="971220907">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B27178D-1357-4B4E-8E1F-C10989B5F4D1}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3393A434-053A-4C26-8B1E-2126C41452FB}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Anvil3" ID="{A0052D7E-165D-4A6E-8414-79D58AD18B70}">
-									<Language>SFX</Language>
-									<AudioFile>Anvil Noises\Anvil3.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="475354699"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="Anvil3" ID="{A0052D7E-165D-4A6E-8414-79D58AD18B70}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Boss Music" ID="{674B76E7-E6A2-4671-84CE-ECC8F2F2C8E5}" ShortID="959549345">

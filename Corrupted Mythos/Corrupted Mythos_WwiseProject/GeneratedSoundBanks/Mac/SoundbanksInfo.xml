@@ -11,11 +11,40 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="3015233798">
+		<SoundBank Id="393239870" Language="SFX" Hash="1659898588">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2900668117" Name="Anvil_Guy" ObjectPath="\Events\Default Work Unit\SFX\Anvil_Guy" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="6639382" Language="SFX">
+							<ShortName>Anvil Noises\Anvil2.wav</ShortName>
+							<Path>SFX/Anvil Noises/Anvil2_10C4C929.wem</Path>
+						</File>
+						<File Id="475354699" Language="SFX">
+							<ShortName>Anvil Noises\Anvil3.wav</ShortName>
+							<Path>SFX/Anvil Noises/Anvil3_10C4C929.wem</Path>
+						</File>
+						<File Id="803554638" Language="SFX">
+							<ShortName>Anvil Noises\Anvil1.wav</ShortName>
+							<Path>SFX/Anvil Noises/Anvil1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3190589889" Name="AnvilStop" ObjectPath="\Events\Default Work Unit\SFX\AnvilStop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2870365479" Name="AxTrap" ObjectPath="\Events\Default Work Unit\SFX\Traps\AxTrap" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="522606835" Language="SFX">
+							<ShortName>Ax Swing Trap 2.wav</ShortName>
+							<Path>SFX/Ax Swing Trap 2_10C4C929.wem</Path>
+						</File>
+						<File Id="542712443" Language="SFX">
+							<ShortName>Ax Swing Trap 1.wav</ShortName>
+							<Path>SFX/Ax Swing Trap 1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2132724612" Name="Chckpoint" ObjectPath="\Events\Default Work Unit\SFX\Stingers\Chckpoint" DurationType="OneShot" DurationMin="1.899093" DurationMax="1.899093">
 					<IncludedMemoryFiles>
 						<File Id="420414728" Language="SFX">
@@ -184,6 +213,26 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3038207054" Name="Shoot" ObjectPath="\Events\Default Work Unit\SFX\Enemy\Shoot" DurationType="OneShot" DurationMin="0.75059" DurationMax="0.75059">
+					<IncludedMemoryFiles>
+						<File Id="337131276" Language="SFX">
+							<ShortName>Shooty Bois Noise\Shoot 1_1.wav</ShortName>
+							<Path>SFX/Shooty Bois Noise/Shoot 1_1_10C4C929.wem</Path>
+						</File>
+						<File Id="944543173" Language="SFX">
+							<ShortName>Shooty Bois Noise\Shoot 2_1.wav</ShortName>
+							<Path>SFX/Shooty Bois Noise/Shoot 2_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2716678721" Name="Victory" ObjectPath="\Events\Default Work Unit\SFX\Victory" DurationType="OneShot" DurationMin="1.493628" DurationMax="1.493628">
+					<IncludedMemoryFiles>
+						<File Id="877159191" Language="SFX">
+							<ShortName>Boss Victory_1.wav</ShortName>
+							<Path>SFX/Boss Victory_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX" Hash="1273471684">
@@ -191,7 +240,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="2739979966">
+		<SoundBank Id="3991942870" Language="SFX" Hash="3826765355">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
@@ -206,7 +255,13 @@
 						<ActionSetStateEntry Id="2965943951" Name="Beserk" ObjectPath="\States\Default Work Unit\MusicState\Beserk"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1196794564" Name="SetBoss" ObjectPath="\Events\Default Work Unit\Music\SetBoss" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+				<Event Id="1196794564" Name="SetBoss" ObjectPath="\Events\Default Work Unit\Music\SetBoss" DurationType="OneShot" DurationMin="2.979705" DurationMax="2.979705">
+					<IncludedMemoryFiles>
+						<File Id="417832594" Language="SFX">
+							<ShortName>BossTrigger.wav</ShortName>
+							<Path>SFX/BossTrigger_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 					<ActionSetState>
 						<ActionSetStateEntry Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\MusicState\Boss"/>
 					</ActionSetState>

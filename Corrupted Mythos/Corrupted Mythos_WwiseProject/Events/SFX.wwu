@@ -111,6 +111,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Shoot" ID="{CB249BBD-BC92-469B-B750-3ED45DD4F81D}">
+							<ChildrenList>
+								<Action Name="" ID="{B970143A-A81B-4512-843C-CBAA3EBF1928}" ShortID="741711525">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Shoot" ID="{BA08634D-A8EE-4C9A-AC4D-16E694630CCF}" WorkUnitID="{B56E4377-0DEA-4B52-B056-2B30FDD37F17}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Stingers" ID="{B3C0BAA6-7296-4BBC-8C69-54B81DA2FE5A}" ShortID="20923076">
@@ -139,6 +150,57 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Traps" ID="{D10F9C12-E495-404E-A04C-A7D159C25B52}" ShortID="711496373">
+					<ChildrenList>
+						<Event Name="AxTrap" ID="{892A671E-8395-44E1-99D5-2B705BF37394}">
+							<ChildrenList>
+								<Action Name="" ID="{DC55C264-CA3D-42E1-ABE5-06BFD1B769D6}" ShortID="251173249">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AxTrap" ID="{2F397CFE-3B0C-434D-B13C-9E2903A94F3B}" WorkUnitID="{B56E4377-0DEA-4B52-B056-2B30FDD37F17}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Victory" ID="{97919B54-B190-417B-8CF3-F90F213AF76C}">
+					<ChildrenList>
+						<Action Name="" ID="{D5901F12-8145-47A6-9EEB-0DAE2507C493}" ShortID="396566212">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boss Victory_1" ID="{E3A686DC-DAD0-474E-8999-02B237D497F5}" WorkUnitID="{B56E4377-0DEA-4B52-B056-2B30FDD37F17}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Anvil_Guy" ID="{54FCF461-F1A0-4676-9F76-174412447624}">
+					<ChildrenList>
+						<Action Name="" ID="{ADBF6A98-4E10-469C-BE02-74914F30DB26}" ShortID="785011534">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Anvil" ID="{FA507E31-5F44-42ED-BB76-891EF7ACD1D8}" WorkUnitID="{B56E4377-0DEA-4B52-B056-2B30FDD37F17}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AnvilStop" ID="{C12C38D2-CA47-4BB5-B966-4235748F76E1}">
+					<ChildrenList>
+						<Action Name="" ID="{366EC971-7A51-4B8D-97B4-0D46B064242D}" ShortID="892411416">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Anvil" ID="{FA507E31-5F44-42ED-BB76-891EF7ACD1D8}" WorkUnitID="{B56E4377-0DEA-4B52-B056-2B30FDD37F17}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

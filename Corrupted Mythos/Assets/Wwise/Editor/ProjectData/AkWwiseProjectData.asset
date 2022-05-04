@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: f338eb090577e0458143ad23744b73c4
     GuidInternal: 
-    m_lastTime: -8585499637884775808
+    m_lastTime: -8585499312924775808
     List:
     - name: Music
       guid: de9e1b142549ad42b0f5b32926ef8fd8
@@ -124,7 +124,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit/Music
     guid: 2a708cfe517c9243a7054fefe600937d
     GuidInternal: 
-    m_lastTime: -8585499785494775808
+    m_lastTime: -8585499318614775808
     List:
     - name: SetAdventure
       guid: ab21cc9062b87f4ea6cd34896464b090
@@ -184,8 +184,8 @@ MonoBehaviour:
         guid: 84e889fb5e661949b6d31322adfc5811
       Path: Events/Default Work Unit/Music/SetBoss
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 2.979705
+      minDuration: 2.979705
     - name: SetMiniBoss
       guid: 5fd5e8b4a75f9341ac4e2d540d87dddf
       id: 1875063345
@@ -260,8 +260,71 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit/SFX
     guid: 90ad5d782211f945af51d5020a47046f
     GuidInternal: 
-    m_lastTime: -8585499637884775808
+    m_lastTime: -8585499311094775808
     List:
+    - name: Anvil_Guy
+      guid: 61f4fc54a0f176469f76174412447624
+      id: 2900668117
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2022b1182e44a249ab8b5598ea34a266
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 90ad5d782211f945af51d5020a47046f
+      - ElementName: Anvil_Guy
+        ObjectType: 3
+        guid: 61f4fc54a0f176469f76174412447624
+      Path: Events/Default Work Unit/SFX/Anvil_Guy
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: AnvilStop
+      guid: d2382cc147cab54bb9664235748f76e1
+      id: 3190589889
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2022b1182e44a249ab8b5598ea34a266
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 90ad5d782211f945af51d5020a47046f
+      - ElementName: AnvilStop
+        ObjectType: 3
+        guid: d2382cc147cab54bb9664235748f76e1
+      Path: Events/Default Work Unit/SFX/AnvilStop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: AxTrap
+      guid: 1e672a899583e14499d52b705bf37394
+      id: 2870365479
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2022b1182e44a249ab8b5598ea34a266
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 90ad5d782211f945af51d5020a47046f
+      - ElementName: Traps
+        ObjectType: 4
+        guid: 129c0fd195e44e40a04ca7d159c25b52
+      - ElementName: AxTrap
+        ObjectType: 3
+        guid: 1e672a899583e14499d52b705bf37394
+      Path: Events/Default Work Unit/SFX/Traps/AxTrap
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Chckpoint
       guid: ec5f64daa7a46d44a6792c92ece0c172
       id: 2132724612
@@ -532,6 +595,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.243787
       minDuration: 2.243787
+    - name: Shoot
+      guid: bd9b24cb92bc9b46b7503ed45dd4f81d
+      id: 3038207054
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2022b1182e44a249ab8b5598ea34a266
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 90ad5d782211f945af51d5020a47046f
+      - ElementName: Enemy
+        ObjectType: 4
+        guid: c8f5291304c0264db3961fa1754d19f6
+      - ElementName: Shoot
+        ObjectType: 3
+        guid: bd9b24cb92bc9b46b7503ed45dd4f81d
+      Path: Events/Default Work Unit/SFX/Enemy/Shoot
+      maxAttenuation: 0
+      maxDuration: 0.75059
+      minDuration: 0.75059
     - name: Stingers
       guid: a6bac0b39672bc4b8c6954b81da2fe5a
       id: 2940432316
@@ -552,6 +638,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Traps
+      guid: 129c0fd195e44e40a04ca7d159c25b52
+      id: 3797942683
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2022b1182e44a249ab8b5598ea34a266
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 90ad5d782211f945af51d5020a47046f
+      - ElementName: Traps
+        ObjectType: 4
+        guid: 129c0fd195e44e40a04ca7d159c25b52
+      Path: Events/Default Work Unit/SFX/Traps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Victory
+      guid: 549b919790b17b418cf3f90f213af76c
+      id: 2716678721
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2022b1182e44a249ab8b5598ea34a266
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 90ad5d782211f945af51d5020a47046f
+      - ElementName: Victory
+        ObjectType: 3
+        guid: 549b919790b17b418cf3f90f213af76c
+      Path: Events/Default Work Unit/SFX/Victory
+      maxAttenuation: 0
+      maxDuration: 1.493628
+      minDuration: 1.493628
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -723,7 +849,7 @@ MonoBehaviour:
     m_lastTime: -8585516446634775808
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000050000000600000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001d0000001e0000002000000027000000
+  ExpandedWaapiItemIds: 0100000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001600000017000000190000001c0000001d0000001e0000001f000000200000002100000022000000270000002b0000006c0000006d000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

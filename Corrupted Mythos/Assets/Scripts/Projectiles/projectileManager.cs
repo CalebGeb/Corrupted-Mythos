@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class projectileManager : MonoBehaviour
 {
+    public AK.Wwise.Event shoot;
+
     [Space]
     [Tooltip("The prefab from which the projectile will be instantiated")]
     [SerializeField] GameObject projPref;
@@ -40,6 +42,7 @@ public class projectileManager : MonoBehaviour
 
             anim.SetTrigger("Attack");
             manager.PlaySound("FirelingCast");
+            shoot.Post(gameObject);
 
             timer = tmax;
             return true;

@@ -18,11 +18,16 @@
 				<SoundBank Name="SFX" ID="{6C4B69BB-FE69-48AF-B793-37816D8DEC4D}">
 					<ObjectInclusionList>
 						<ObjectRef Name="PlayerSpawn" ID="{44D1E573-2A08-410B-A7A3-53B381E5BD11}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Victory" ID="{97919B54-B190-417B-8CF3-F90F213AF76C}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayerAttack" ID="{8A7923EE-6AE9-4240-A72B-DE5B154FB4B7}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayerDeath" ID="{88743B6F-4230-43CD-886B-D6AF25D3A4B5}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Chckpoint" ID="{DA645FEC-A4A7-446D-A679-2C92ECE0C172}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="AxTrap" ID="{892A671E-8395-44E1-99D5-2B705BF37394}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Anvil_Guy" ID="{54FCF461-F1A0-4676-9F76-174412447624}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Shoot" ID="{CB249BBD-BC92-469B-B750-3ED45DD4F81D}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="EnemySpawn" ID="{6F1CF9C6-31A3-46FB-AD96-A4D4B1FF02FE}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayerDamage" ID="{8E82D46C-C471-4805-9D43-DB679DD02C28}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="AnvilStop" ID="{C12C38D2-CA47-4BB5-B966-4235748F76E1}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayerJump" ID="{DA523286-A252-4DF5-BBD8-98F222C53A6F}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LevelVctory" ID="{3D69EDE7-82D2-4F09-B543-60F0214D1561}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="EnemyDeath" ID="{962C9215-1AB8-4F3D-A61D-A47FD63451AB}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>

@@ -158,6 +158,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 745106f6557f34a4fa70988b9d67d189, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shoot:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   projPref: {fileID: 2570958598915870579, guid: c8bd3382c78a127409111ec8231c268c, type: 3}
   tmax: 2
 --- !u!114 &3444722036047962627
@@ -176,6 +180,7 @@ MonoBehaviour:
   em: {fileID: 3743684799867251213}
   stagTime: 0.5
   doDeath: 0
+  dontHurt: 0
   animator: {fileID: 3743684800424924702}
   sAnimator: {fileID: 0}
   script: {fileID: 0}

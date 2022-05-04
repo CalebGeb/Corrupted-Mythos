@@ -566,6 +566,10 @@ MonoBehaviour:
   player: {fileID: 0}
   soulPref: {fileID: 1293211651821104217, guid: c81a355c4e31b1644a156875f90f3e1d, type: 3}
   BerserkGiver: 40
+  victory:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bad1f02260a5b404fb4de04f3935d9c7, type: 2}
   stagertime: 2
 --- !u!114 &2938682084668165569
 MonoBehaviour:

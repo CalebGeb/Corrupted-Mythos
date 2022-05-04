@@ -54,6 +54,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{79E855AE-29A3-46BA-BF0E-EAC05432868A}" ShortID="885089696">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BossTrigger" ID="{45FBB6CD-234E-40D6-BF89-40ABEAC6A97D}" WorkUnitID="{B56E4377-0DEA-4B52-B056-2B30FDD37F17}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="SetBeserk" ID="{DCD7ED8B-322B-4A56-A41E-CB6111F1A3D3}">

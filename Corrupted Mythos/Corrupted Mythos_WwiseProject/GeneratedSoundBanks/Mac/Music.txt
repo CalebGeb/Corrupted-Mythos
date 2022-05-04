@@ -18,6 +18,7 @@ State	ID	Name	State Group			Notes
 	3762955427	Tutorial	MusicState			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	417832594	BossTrigger	Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\.cache\Mac\SFX\BossTrigger_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BossTrigger		525764
 	558569800	Berserk Music	Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\.cache\Mac\SFX\Berserk Music_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Gameplay Music\Beserk\Berserk Music\Berserk Music		7526544
 	652873348	Tutorial Music	Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\.cache\Mac\SFX\Tutorial Music_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Gameplay Music\Tutorial\Tutorial Music\Tutorial Music		14464944
 	756091087	Mini Boss	Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\.cache\Mac\SFX\Mini Boss_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Gameplay Music\MiniBoss\Mini Boss\Mini Boss		11289744
