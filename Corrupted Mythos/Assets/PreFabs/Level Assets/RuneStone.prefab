@@ -5075,6 +5075,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bdb2f5bfad72474083e65b30b5fe83c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  yay:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 87d749a3f965547dbb1a5706b175dd5a, type: 2}
   effect: {fileID: 66516320}
 --- !u!114 &5283919572103363604
 MonoBehaviour:
@@ -5088,4 +5092,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a7b03cd04ae3e64883d18041fba990a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 0}
+  menu: {fileID: 11400000, guid: 459bfbfae1a483c409e5842d2b8828d1, type: 2}

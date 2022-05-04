@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class StandingStone : MonoBehaviour
 {
+    public AK.Wwise.Event yay;
+
     [SerializeField]
     ParticleSystem effect;
     PlayerHealth script;
@@ -13,6 +15,7 @@ public class StandingStone : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player" && !effect.isPlaying)
         {
+            yay.Post(gameObject);
             effect.Play();
             script = collision.GetComponent<PlayerHealth>();
 

@@ -5,6 +5,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public AK.Wwise.Event Beserk;
+    public AK.Wwise.Event Adventure;
     public CharacterController2D cntrler;
     public Animator animatior;
     [Space]
@@ -347,6 +349,8 @@ public class PlayerMovement : MonoBehaviour
         playerHealth.berserking = true;
         FollowEffect.SetActive(true);
 
+        Beserk.Post(gameObject);
+
         gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>().color = Color.red;
         impact.GetComponent<SpriteRenderer>().color = Color.magenta;
         speed += 20;
@@ -365,6 +369,7 @@ public class PlayerMovement : MonoBehaviour
         speed = 40;
         playerHealth.berserk = false;
         playerHealth.berserking = false;
+        Adventure.Post(gameObject);
 
         Bactive = false;
         gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>().color = Color.white;

@@ -162,6 +162,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e324eb045829a4642889d0b0d2baa9ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  miniBoss:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  adventure:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  spawn:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5c6671582e4f94fdaa64f54192ed94af, type: 2}
   EnemyList:
   - {fileID: 11400000, guid: e456f2682e775f945b9cc9b9c4c00eb2, type: 2}
   BarrierList:
@@ -358,7 +370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a7b03cd04ae3e64883d18041fba990a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 0}
+  menu: {fileID: 11400000, guid: 459bfbfae1a483c409e5842d2b8828d1, type: 2}
 --- !u!1 &6370757559677080102
 GameObject:
   m_ObjectHideFlags: 0

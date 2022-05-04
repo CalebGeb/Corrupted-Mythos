@@ -5,6 +5,9 @@ using UnityEngine.InputSystem;
 
 public class CorruptedNode : MonoBehaviour
 {
+    public AK.Wwise.Event miniBoss;
+    public AK.Wwise.Event adventure;
+    public AK.Wwise.Event spawn;
     #region Serialized Fields
     [Tooltip("This is the list of enemies this node can spawn")]
     [SerializeField]
@@ -124,6 +127,7 @@ public class CorruptedNode : MonoBehaviour
         foreach (GameObject barrier in BarrierList)
         {
             barrier.SetActive(true);
+            miniBoss.Post(gameObject);
         }
 
         foreach(GameObject spawner in Spawners)
@@ -145,6 +149,7 @@ public class CorruptedNode : MonoBehaviour
         if(manager != null)
         {
             manager.PlaySound("battleHorn");
+            //spawn.Post(gameObject);
         }
 
         t = restT;
@@ -153,6 +158,7 @@ public class CorruptedNode : MonoBehaviour
 
     public void SpawnEnemy()
     {
+        
         int pick = Random.Range(0, EnemyList.Count);
         EnemyList[pick].Spawn(this, this.transform.GetChild(3).gameObject);
 
@@ -209,6 +215,7 @@ public class CorruptedNode : MonoBehaviour
         foreach (GameObject barrier in BarrierList)
         {
             barrier.SetActive(false);
+            adventure.Post(gameObject);
         }
 
         if (init)

@@ -3,9 +3,30 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{09EB38F3-7705-45E0-8143-AD23744B73C4}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="TEST" ID="{2C25CD45-DC2D-4348-A524-0CE02B363304}">
+				<SoundBank Name="Music" ID="{141B9EDE-4925-42AD-B0F5-B32926EF8FD8}">
 					<ObjectInclusionList>
-						<ObjectRef Name="BOOmTest" ID="{C23F54B5-5207-45A7-993F-F564F3BC0F05}" WorkUnitID="{18B12220-442E-49A2-AB8B-5598EA34A266}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SetTutorial" ID="{63D63278-E9CD-412D-BF80-BF50CAB847A4}" WorkUnitID="{FE8C702A-7C51-4392-A705-4FEFE600937D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StartMusic" ID="{4B09D0CB-69F2-4135-A1C5-ACD7016B4B2D}" WorkUnitID="{FE8C702A-7C51-4392-A705-4FEFE600937D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SetMiniBoss" ID="{B4E8D55F-5FA7-4193-AC4E-2D540D87DDDF}" WorkUnitID="{FE8C702A-7C51-4392-A705-4FEFE600937D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SetBoss" ID="{FB89E884-665E-4919-B6D3-1322ADFC5811}" WorkUnitID="{FE8C702A-7C51-4392-A705-4FEFE600937D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SetBeserk" ID="{DCD7ED8B-322B-4A56-A41E-CB6111F1A3D3}" WorkUnitID="{FE8C702A-7C51-4392-A705-4FEFE600937D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SetAdventure" ID="{90CC21AB-B862-4E7F-A6CD-34896464B090}" WorkUnitID="{FE8C702A-7C51-4392-A705-4FEFE600937D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SFX" ID="{6C4B69BB-FE69-48AF-B793-37816D8DEC4D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="PlayerSpawn" ID="{44D1E573-2A08-410B-A7A3-53B381E5BD11}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerAttack" ID="{8A7923EE-6AE9-4240-A72B-DE5B154FB4B7}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerDeath" ID="{88743B6F-4230-43CD-886B-D6AF25D3A4B5}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Chckpoint" ID="{DA645FEC-A4A7-446D-A679-2C92ECE0C172}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="EnemySpawn" ID="{6F1CF9C6-31A3-46FB-AD96-A4D4B1FF02FE}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerDamage" ID="{8E82D46C-C471-4805-9D43-DB679DD02C28}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerJump" ID="{DA523286-A252-4DF5-BBD8-98F222C53A6F}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="LevelVctory" ID="{3D69EDE7-82D2-4F09-B543-60F0214D1561}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="EnemyDeath" ID="{962C9215-1AB8-4F3D-A61D-A47FD63451AB}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="EnemyDamage" ID="{85FF819E-1F77-4F77-A99A-988D939B4BE7}" WorkUnitID="{785DAD90-1122-45F9-AF51-D5020A47046F}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

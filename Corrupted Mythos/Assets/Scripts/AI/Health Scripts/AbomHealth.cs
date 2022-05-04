@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class AbomHealth : EnemyHealth
 {
+    public AK.Wwise.Event edamage;
+    public AK.Wwise.Event death;
+
     [SerializeField]
     float foodChance = 0.1f;
     static float chanceMod = 0;
@@ -20,9 +23,11 @@ public class AbomHealth : EnemyHealth
     public override void minusHealth(int damage, int knockback = 0)
     {
         takeDamage(damage, knockback);
+        edamage.Post(gameObject);
 
         if (health <= 0)
         {
+            death.Post(gameObject);
             float drop = Random.value;
             if (drop <= (foodChance + chanceMod))
             {

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FE8C702A-7C51-4392-A705-4FEFE600937D}" SchemaVersion="103" RootDocumentID="{18B12220-442E-49A2-AB8B-5598EA34A266}" ParentDocumentID="{18B12220-442E-49A2-AB8B-5598EA34A266}">
+	<Events>
+		<WorkUnit Name="Music" ID="{FE8C702A-7C51-4392-A705-4FEFE600937D}" OwnerID="{18B12220-442E-49A2-AB8B-5598EA34A266}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="StartMusic" ID="{4B09D0CB-69F2-4135-A1C5-ACD7016B4B2D}">
+					<ChildrenList>
+						<Action Name="" ID="{3C839210-4A4A-485A-8E4F-481AF87EBC00}" ShortID="367166139">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gameplay Music" ID="{519ADC0C-BEE0-473B-BC50-139ED06A5369}" WorkUnitID="{5C59A181-ABD7-4FB4-8096-50E84EC90128}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SetTutorial" ID="{63D63278-E9CD-412D-BF80-BF50CAB847A4}">
+					<ChildrenList>
+						<Action Name="" ID="{FC4C6C60-1825-4712-8EB4-CC4EE8ABA46B}" ShortID="474180221">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tutorial" ID="{E147552C-D2E4-4AF9-B72D-F5986DD7986C}" WorkUnitID="{907AE70F-4C7B-439F-BE87-2EBA0D0E6A40}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SetMiniBoss" ID="{B4E8D55F-5FA7-4193-AC4E-2D540D87DDDF}">
+					<ChildrenList>
+						<Action Name="" ID="{830B2CE6-BE07-4A61-AC1E-CB5879AD1EF5}" ShortID="691698348">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MiniBoss" ID="{76DCD987-E8C1-41F0-861B-F42274A4D582}" WorkUnitID="{907AE70F-4C7B-439F-BE87-2EBA0D0E6A40}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SetBoss" ID="{FB89E884-665E-4919-B6D3-1322ADFC5811}">
+					<ChildrenList>
+						<Action Name="" ID="{E4E33B1E-68EC-4688-8377-68CF2650086B}" ShortID="844913881">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boss" ID="{DD5FA55F-3A35-4978-A1A2-95A008E45A00}" WorkUnitID="{907AE70F-4C7B-439F-BE87-2EBA0D0E6A40}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SetBeserk" ID="{DCD7ED8B-322B-4A56-A41E-CB6111F1A3D3}">
+					<ChildrenList>
+						<Action Name="" ID="{4BCE1D75-FEE0-4369-B5D6-AA7154098DE6}" ShortID="263794142">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Beserk" ID="{2E6FEC16-1FA8-4E02-A68E-5E99500B347C}" WorkUnitID="{907AE70F-4C7B-439F-BE87-2EBA0D0E6A40}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SetAdventure" ID="{90CC21AB-B862-4E7F-A6CD-34896464B090}">
+					<ChildrenList>
+						<Action Name="" ID="{A0A41EB8-3BC1-4A77-9156-50C8A05C5DC5}" ShortID="1041201392">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Adventure" ID="{7664FE87-C7A2-47DA-8C20-BE1890CFE3A4}" WorkUnitID="{907AE70F-4C7B-439F-BE87-2EBA0D0E6A40}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cd5c301014dc461d9c4130310c1dbc1, type: 3}
+  m_Name: B4E8D55F-5FA7-4193-AC4E-2D540D87DDDF
+  m_EditorClassIdentifier: 
+  objectName: SetMiniBoss
+  id: 1875063345
+  guid: B4E8D55F-5FA7-4193-AC4E-2D540D87DDDF

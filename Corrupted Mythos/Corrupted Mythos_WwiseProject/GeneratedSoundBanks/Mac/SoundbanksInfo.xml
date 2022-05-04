@@ -11,25 +11,305 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
-			<ObjectPath>Init</ObjectPath>
-			<ShortName>Init</ShortName>
-			<Path>Init.bnk</Path>
-		</SoundBank>
-		<SoundBank Id="3157003241" Language="SFX" Hash="727015542">
-			<ObjectPath>\SoundBanks\Default Work Unit\TEST</ObjectPath>
-			<ShortName>TEST</ShortName>
-			<Path>TEST.bnk</Path>
+		<SoundBank Id="393239870" Language="SFX" Hash="3015233798">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2974598180" Name="BOOmTest" ObjectPath="\Events\Default Work Unit\BOOmTest" DurationType="Infinite">
+				<Event Id="2132724612" Name="Chckpoint" ObjectPath="\Events\Default Work Unit\SFX\Stingers\Chckpoint" DurationType="OneShot" DurationMin="1.899093" DurationMax="1.899093">
 					<IncludedMemoryFiles>
-						<File Id="636364458" Language="SFX">
-							<ShortName>explosion.wav</ShortName>
-							<Path>SFX/explosion_D79FB2B7.wem</Path>
+						<File Id="420414728" Language="SFX">
+							<ShortName>CheckpointNoise.wav</ShortName>
+							<Path>SFX/CheckpointNoise_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1879435608" Name="EnemyDamage" ObjectPath="\Events\Default Work Unit\SFX\Enemy\EnemyDamage" DurationType="OneShot" DurationMin="1.493628" DurationMax="1.493628">
+					<IncludedMemoryFiles>
+						<File Id="143626915" Language="SFX">
+							<ShortName>Enemy Damage\EnemyDamage2.wav</ShortName>
+							<Path>SFX/Enemy Damage/EnemyDamage2_10C4C929.wem</Path>
+						</File>
+						<File Id="248962451" Language="SFX">
+							<ShortName>Enemy Damage\EnemyDamage1.wav</ShortName>
+							<Path>SFX/Enemy Damage/EnemyDamage1_10C4C929.wem</Path>
+						</File>
+						<File Id="834093364" Language="SFX">
+							<ShortName>Enemy Damage\EnemyDamage3.wav</ShortName>
+							<Path>SFX/Enemy Damage/EnemyDamage3_10C4C929.wem</Path>
+						</File>
+						<File Id="848099619" Language="SFX">
+							<ShortName>Enemy Damage\EnemyDamage4.wav</ShortName>
+							<Path>SFX/Enemy Damage/EnemyDamage4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3249137159" Name="EnemyDeath" ObjectPath="\Events\Default Work Unit\SFX\Enemy\EnemyDeath" DurationType="OneShot" DurationMin="1.493628" DurationMax="1.493628">
+					<IncludedMemoryFiles>
+						<File Id="213819602" Language="SFX">
+							<ShortName>Enemy Death\EnemyDeath3.wav</ShortName>
+							<Path>SFX/Enemy Death/EnemyDeath3_10C4C929.wem</Path>
+						</File>
+						<File Id="516010956" Language="SFX">
+							<ShortName>Enemy Death\EnemyDeath2.wav</ShortName>
+							<Path>SFX/Enemy Death/EnemyDeath2_10C4C929.wem</Path>
+						</File>
+						<File Id="1013289844" Language="SFX">
+							<ShortName>Enemy Death\EnemyDeath1.wav</ShortName>
+							<Path>SFX/Enemy Death/EnemyDeath1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3453203440" Name="EnemySpawn" ObjectPath="\Events\Default Work Unit\SFX\Enemy\EnemySpawn" DurationType="OneShot" DurationMin="0.75059" DurationMax="0.75059">
+					<IncludedMemoryFiles>
+						<File Id="1014413536" Language="SFX">
+							<ShortName>Enemy Spawn_1.wav</ShortName>
+							<Path>SFX/Enemy Spawn_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="540079904" Name="LevelVctory" ObjectPath="\Events\Default Work Unit\SFX\Stingers\LevelVctory" DurationType="OneShot" DurationMin="1.971859" DurationMax="1.971859">
+					<IncludedMemoryFiles>
+						<File Id="194769991" Language="SFX">
+							<ShortName>LevelVictory.wav</ShortName>
+							<Path>SFX/LevelVictory_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2169369406" Name="PlayerAttack" ObjectPath="\Events\Default Work Unit\SFX\Player\PlayerAttack" DurationType="OneShot" DurationMin="1.360544" DurationMax="2.469524">
+					<IncludedMemoryFiles>
+						<File Id="15224210" Language="SFX">
+							<ShortName>Sword Folder\Shing3.wav</ShortName>
+							<Path>SFX/Sword Folder/Shing3_10C4C929.wem</Path>
+						</File>
+						<File Id="72874797" Language="SFX">
+							<ShortName>Sword Folder\SwordSwing2.wav</ShortName>
+							<Path>SFX/Sword Folder/SwordSwing2_10C4C929.wem</Path>
+						</File>
+						<File Id="86886423" Language="SFX">
+							<ShortName>Sword Folder\Shing2.wav</ShortName>
+							<Path>SFX/Sword Folder/Shing2_10C4C929.wem</Path>
+						</File>
+						<File Id="325216978" Language="SFX">
+							<ShortName>Sword Folder\Shing1.wav</ShortName>
+							<Path>SFX/Sword Folder/Shing1_10C4C929.wem</Path>
+						</File>
+						<File Id="403857145" Language="SFX">
+							<ShortName>Sword Folder\SwordSwing1.wav</ShortName>
+							<Path>SFX/Sword Folder/SwordSwing1_10C4C929.wem</Path>
+						</File>
+						<File Id="537505944" Language="SFX">
+							<ShortName>Sword Folder\SwordSwing3.wav</ShortName>
+							<Path>SFX/Sword Folder/SwordSwing3_10C4C929.wem</Path>
+						</File>
+						<File Id="542139331" Language="SFX">
+							<ShortName>Player Attack.wav</ShortName>
+							<Path>SFX/Player Attack_10C4C929.wem</Path>
+						</File>
+						<File Id="545281520" Language="SFX">
+							<ShortName>Sword Folder\SwordSwing4.wav</ShortName>
+							<Path>SFX/Sword Folder/SwordSwing4_10C4C929.wem</Path>
+						</File>
+						<File Id="747950971" Language="SFX">
+							<ShortName>Sword Folder\SwordSwing5.wav</ShortName>
+							<Path>SFX/Sword Folder/SwordSwing5_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="337406793" Name="PlayerDamage" ObjectPath="\Events\Default Work Unit\SFX\Player\PlayerDamage" DurationType="OneShot" DurationMin="0.75771" DurationMax="0.75771">
+					<IncludedMemoryFiles>
+						<File Id="936910300" Language="SFX">
+							<ShortName>Damage\PlayerDamage1.wav</ShortName>
+							<Path>SFX/Damage/PlayerDamage1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1656947812" Name="PlayerDeath" ObjectPath="\Events\Default Work Unit\SFX\Player\PlayerDeath" DurationType="OneShot" DurationMin="1.500748" DurationMax="1.500748">
+					<IncludedMemoryFiles>
+						<File Id="5076668" Language="SFX">
+							<ShortName>Die Folder\PlayerDeath1.wav</ShortName>
+							<Path>SFX/Die Folder/PlayerDeath1_10C4C929.wem</Path>
+						</File>
+						<File Id="284774200" Language="SFX">
+							<ShortName>Die Folder\PlayerDeath4.wav</ShortName>
+							<Path>SFX/Die Folder/PlayerDeath4_10C4C929.wem</Path>
+						</File>
+						<File Id="815311588" Language="SFX">
+							<ShortName>Die Folder\PlayerDeath2.wav</ShortName>
+							<Path>SFX/Die Folder/PlayerDeath2_10C4C929.wem</Path>
+						</File>
+						<File Id="1044566352" Language="SFX">
+							<ShortName>Die Folder\PlayerDeath3.wav</ShortName>
+							<Path>SFX/Die Folder/PlayerDeath3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4008126242" Name="PlayerJump" ObjectPath="\Events\Default Work Unit\SFX\Player\PlayerJump" DurationType="OneShot" DurationMin="0.75771" DurationMax="0.75771">
+					<IncludedMemoryFiles>
+						<File Id="143674255" Language="SFX">
+							<ShortName>Jump Folder\PlayerJump7.wav</ShortName>
+							<Path>SFX/Jump Folder/PlayerJump7_10C4C929.wem</Path>
+						</File>
+						<File Id="278836123" Language="SFX">
+							<ShortName>Jump Folder\PlayerJump4.wav</ShortName>
+							<Path>SFX/Jump Folder/PlayerJump4_10C4C929.wem</Path>
+						</File>
+						<File Id="363585509" Language="SFX">
+							<ShortName>Jump Folder\PlayerJump2.wav</ShortName>
+							<Path>SFX/Jump Folder/PlayerJump2_10C4C929.wem</Path>
+						</File>
+						<File Id="649291855" Language="SFX">
+							<ShortName>Jump Folder\PlayerJump1.wav</ShortName>
+							<Path>SFX/Jump Folder/PlayerJump1_10C4C929.wem</Path>
+						</File>
+						<File Id="786689897" Language="SFX">
+							<ShortName>Jump Folder\PlayerJump3.wav</ShortName>
+							<Path>SFX/Jump Folder/PlayerJump3_10C4C929.wem</Path>
+						</File>
+						<File Id="915316852" Language="SFX">
+							<ShortName>Jump Folder\PlayerJump5.wav</ShortName>
+							<Path>SFX/Jump Folder/PlayerJump5_10C4C929.wem</Path>
+						</File>
+						<File Id="953714134" Language="SFX">
+							<ShortName>Jump Folder\PlayerJump6.wav</ShortName>
+							<Path>SFX/Jump Folder/PlayerJump6_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2064283983" Name="PlayerSpawn" ObjectPath="\Events\Default Work Unit\SFX\Player\PlayerSpawn" DurationType="OneShot" DurationMin="2.243787" DurationMax="2.243787">
+					<IncludedMemoryFiles>
+						<File Id="533041565" Language="SFX">
+							<ShortName>PlayerSpawn.wav</ShortName>
+							<Path>SFX/PlayerSpawn_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1273471684">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="2739979966">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2480836201" Name="SetAdventure" ObjectPath="\Events\Default Work Unit\Music\SetAdventure" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2614187895" Name="Adventure" ObjectPath="\States\Default Work Unit\MusicState\Adventure"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="376606633" Name="SetBeserk" ObjectPath="\Events\Default Work Unit\Music\SetBeserk" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2965943951" Name="Beserk" ObjectPath="\States\Default Work Unit\MusicState\Beserk"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1196794564" Name="SetBoss" ObjectPath="\Events\Default Work Unit\Music\SetBoss" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\MusicState\Boss"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1875063345" Name="SetMiniBoss" ObjectPath="\Events\Default Work Unit\Music\SetMiniBoss" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2587700427" Name="MiniBoss" ObjectPath="\States\Default Work Unit\MusicState\MiniBoss"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2426491381" Name="SetTutorial" ObjectPath="\Events\Default Work Unit\Music\SetTutorial" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3762955427" Name="Tutorial" ObjectPath="\States\Default Work Unit\MusicState\Tutorial"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3827058668" Name="StartMusic" ObjectPath="\Events\Default Work Unit\Music\StartMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="558569800" Language="SFX">
+							<ShortName>Berserk Music.wav</ShortName>
+							<Path>SFX/Berserk Music_D79FB2B7.wem</Path>
+						</File>
+						<File Id="652873348" Language="SFX">
+							<ShortName>Tutorial Music.wav</ShortName>
+							<Path>SFX/Tutorial Music_D79FB2B7.wem</Path>
+						</File>
+						<File Id="756091087" Language="SFX">
+							<ShortName>Mini Boss.wav</ShortName>
+							<Path>SFX/Mini Boss_D79FB2B7.wem</Path>
+						</File>
+						<File Id="817044492" Language="SFX">
+							<ShortName>Adventure Music.wav</ShortName>
+							<Path>SFX/Adventure Music_D79FB2B7.wem</Path>
+						</File>
+						<File Id="969198733" Language="SFX">
+							<ShortName>BossIntro.wav</ShortName>
+							<Path>SFX/BossIntro_D79FB2B7.wem</Path>
+						</File>
+						<File Id="981320797" Language="SFX">
+							<ShortName>BossBridge.wav</ShortName>
+							<Path>SFX/BossBridge_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{E147552C-D2E4-4AF9-B72D-F5986DD7986C}">
+							<Media>
+								<File Id="652873348"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{DBE9D956-6EA4-4C10-8698-1475D0DF41AD}">
+							<Media>
+								<File Id="817044492"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{76DCD987-E8C1-41F0-861B-F42274A4D582}">
+							<Media>
+								<File Id="756091087"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2E6FEC16-1FA8-4E02-A68E-5E99500B347C}">
+							<Media>
+								<File Id="558569800"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7664FE87-C7A2-47DA-8C20-BE1890CFE3A4}">
+							<Media>
+								<File Id="817044492"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{DD5FA55F-3A35-4978-A1A2-95A008E45A00}">
+							<Media>
+								<File Id="969198733"/>
+								<File Id="981320797"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="1021618141" Name="MusicState" ObjectPath="\States\Default Work Unit\MusicState" GUID="{D09E004A-A79D-4D01-A67D-9E5F266140AA}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MusicState\None" GUID="{DBE9D956-6EA4-4C10-8698-1475D0DF41AD}"/>
+						<State Id="3762955427" Name="Tutorial" ObjectPath="\States\Default Work Unit\MusicState\Tutorial" GUID="{E147552C-D2E4-4AF9-B72D-F5986DD7986C}"/>
+						<State Id="2614187895" Name="Adventure" ObjectPath="\States\Default Work Unit\MusicState\Adventure" GUID="{7664FE87-C7A2-47DA-8C20-BE1890CFE3A4}"/>
+						<State Id="2587700427" Name="MiniBoss" ObjectPath="\States\Default Work Unit\MusicState\MiniBoss" GUID="{76DCD987-E8C1-41F0-861B-F42274A4D582}"/>
+						<State Id="2965943951" Name="Beserk" ObjectPath="\States\Default Work Unit\MusicState\Beserk" GUID="{2E6FEC16-1FA8-4E02-A68E-5E99500B347C}"/>
+						<State Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\MusicState\Boss" GUID="{DD5FA55F-3A35-4978-A1A2-95A008E45A00}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\MusicState\Boss" GUID="{DD5FA55F-3A35-4978-A1A2-95A008E45A00}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2587700427" Name="MiniBoss" ObjectPath="\States\Default Work Unit\MusicState\MiniBoss" GUID="{76DCD987-E8C1-41F0-861B-F42274A4D582}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2614187895" Name="Adventure" ObjectPath="\States\Default Work Unit\MusicState\Adventure" GUID="{7664FE87-C7A2-47DA-8C20-BE1890CFE3A4}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2965943951" Name="Beserk" ObjectPath="\States\Default Work Unit\MusicState\Beserk" GUID="{2E6FEC16-1FA8-4E02-A68E-5E99500B347C}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3762955427" Name="Tutorial" ObjectPath="\States\Default Work Unit\MusicState\Tutorial" GUID="{E147552C-D2E4-4AF9-B72D-F5986DD7986C}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

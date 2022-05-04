@@ -9,6 +9,9 @@ public class PlayerHealth : MonoBehaviour
 {
     public static Action<bool> BerserkEffect = delegate { };
 
+    public AK.Wwise.Event death;
+    public AK.Wwise.Event pdamage;
+
     public bool berserk;
     public bool berserking;
     public float rageCounter;
@@ -99,6 +102,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (!inv)
         {
+            pdamage.Post(gameObject);
             if (perfectBlock && blockable)
             {
                 hurtFlash = Color.yellow;
@@ -134,6 +138,7 @@ public class PlayerHealth : MonoBehaviour
             if (health <= 0)
             {
                 //RespawnPlayer();
+                death.Post(gameObject);
                 PlayerAnim.SetTrigger("Die");
                 lives--;
                 livesCount.text = lives.ToString();
@@ -164,6 +169,7 @@ public class PlayerHealth : MonoBehaviour
     public void killPlayer()
     {
         lives--;
+        death.Post(gameObject);
         livesCount.text = lives.ToString();
         BerserkEffect(true);
         if (lives <= 0)

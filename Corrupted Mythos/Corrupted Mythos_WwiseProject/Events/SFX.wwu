@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{785DAD90-1122-45F9-AF51-D5020A47046F}" SchemaVersion="103" RootDocumentID="{18B12220-442E-49A2-AB8B-5598EA34A266}" ParentDocumentID="{18B12220-442E-49A2-AB8B-5598EA34A266}">
+	<Events>
+		<WorkUnit Name="SFX" ID="{785DAD90-1122-45F9-AF51-D5020A47046F}" OwnerID="{18B12220-442E-49A2-AB8B-5598EA34A266}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Player" ID="{1BE7A780-C8D8-459E-AB5F-4916454290E7}" ShortID="903311917">
+					<ChildrenList>
+						<Event Name="PlayerDeath" ID="{88743B6F-4230-43CD-886B-D6AF25D3A4B5}">
+							<ChildrenList>
+								<Action Name="" ID="{CF7D7B5D-7EB0-4C23-9747-94CF235879C2}" ShortID="748797568">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Death" ID="{D2FE632B-1339-4F30-B622-DCA4E272D0BC}" WorkUnitID="{B56E4377-0DEA-4B52-B056-2B30FDD37F17}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerDamage" ID="{8E82D46C-C471-4805-9D43-DB679DD02C28}">
+							<ChildrenList>
+								<Action Name="" ID="{363D4B65-649D-429D-9FD4-C1DF0C0E6168}" ShortID="902673929">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerDamage1" ID="{8B4565D9-8CDE-433A-8014-2A009CE628E6}" WorkUnitID="{B56E4377-0DEA-4B52-B056-2B30FDD37F17}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerAttack" ID="{8A7923EE-6AE9-4240-A72B-DE5B154FB4B7}">
+							<ChildrenList>
+								<Action Name="" ID="{14EB00DF-D0E0-4292-BCDB-AACE96C8F27E}" ShortID="175926114">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player Attack" ID="{FBD16AA9-DFE0-4217-B4BC-B8F89194BA40}" WorkUnitID="{B56E4377-0DEA-4B52-B056-2B30FDD37F17}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{461A7E2F-07FD-4E0B-8D2F-E64F9BC2B169}" ShortID="422155687">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerSwordShing" ID="{F5289259-92CA-4FF9-BC75-54A4C1BDCF6A}" WorkUnitID="{B56E4377-0DEA-4B52-B056-2B30FDD37F17}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EA984F69-2C83-4365-B268-0BAAF0D2FC10}" ShortID="717094381">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerAttackGrunt" ID="{BE6EDCB3-1BEA-4592-AC46-818F0D6BFB71}" WorkUnitID="{B56E4377-0DEA-4B52-B056-2B30FDD37F17}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerSpawn" ID="{44D1E573-2A08-410B-A7A3-53B381E5BD11}">
+							<ChildrenList>
+								<Action Name="" ID="{A723072A-1974-40E7-B839-3568CD63ADC1}" ShortID="432021839">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerSpawn" ID="{B1D291DE-9F3E-4EA0-8CED-D968542705F7}" WorkUnitID="{B56E4377-0DEA-4B52-B056-2B30FDD37F17}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerJump" ID="{DA523286-A252-4DF5-BBD8-98F222C53A6F}">
+							<ChildrenList>
+								<Action Name="" ID="{ABC7D487-5C45-4025-BBA6-457077A41607}" ShortID="1067399337">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jump" ID="{9597519C-0D95-48F0-ABE0-991E8E9630B9}" WorkUnitID="{B56E4377-0DEA-4B52-B056-2B30FDD37F17}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Enemy" ID="{1329F5C8-C004-4D26-B396-1FA1754D19F6}" ShortID="86294758">
+					<ChildrenList>
+						<Event Name="EnemySpawn" ID="{6F1CF9C6-31A3-46FB-AD96-A4D4B1FF02FE}">
+							<ChildrenList>
+								<Action Name="" ID="{5E604170-8452-48DD-9A1B-B93BD1488ED5}" ShortID="81008566">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy Spawn_1" ID="{57BD6638-F81B-4EDF-A270-4E7428208896}" WorkUnitID="{B56E4377-0DEA-4B52-B056-2B30FDD37F17}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EnemyDamage" ID="{85FF819E-1F77-4F77-A99A-988D939B4BE7}">
+							<ChildrenList>
+								<Action Name="" ID="{7F055482-E661-4F6F-8070-2C9A7186D3B5}" ShortID="958907453">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EnemyDamage" ID="{2BD5C3DF-602C-46C3-92D2-1E4D48A48D18}" WorkUnitID="{B56E4377-0DEA-4B52-B056-2B30FDD37F17}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EnemyDeath" ID="{962C9215-1AB8-4F3D-A61D-A47FD63451AB}">
+							<ChildrenList>
+								<Action Name="" ID="{A9401460-D900-4593-9382-CAB30F6FD3FF}" ShortID="587902664">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EnemyDeath" ID="{C9AEA3CE-CE75-4424-B820-D4E7B31364DC}" WorkUnitID="{B56E4377-0DEA-4B52-B056-2B30FDD37F17}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Stingers" ID="{B3C0BAA6-7296-4BBC-8C69-54B81DA2FE5A}" ShortID="20923076">
+					<ChildrenList>
+						<Event Name="Chckpoint" ID="{DA645FEC-A4A7-446D-A679-2C92ECE0C172}">
+							<ChildrenList>
+								<Action Name="" ID="{62AF2D8F-13F2-4102-80EC-30ED05844132}" ShortID="840232398">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CheckpointNoise" ID="{572D9F2C-23A5-4165-97C2-69F502A3F6AE}" WorkUnitID="{B56E4377-0DEA-4B52-B056-2B30FDD37F17}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="LevelVctory" ID="{3D69EDE7-82D2-4F09-B543-60F0214D1561}">
+							<ChildrenList>
+								<Action Name="" ID="{8EDCC917-2AE7-418A-B790-5A84C0B2A6CE}" ShortID="148026835">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LevelVictory" ID="{E1C4EBA9-27C2-48DA-B211-01C8A3289EE1}" WorkUnitID="{B56E4377-0DEA-4B52-B056-2B30FDD37F17}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

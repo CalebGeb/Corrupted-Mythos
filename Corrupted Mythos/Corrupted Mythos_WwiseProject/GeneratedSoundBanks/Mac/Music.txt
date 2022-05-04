@@ -1,0 +1,27 @@
+Event	ID	Name			Wwise Object Path	Notes
+	376606633	SetBeserk			\Default Work Unit\Music\SetBeserk	
+	1196794564	SetBoss			\Default Work Unit\Music\SetBoss	
+	1875063345	SetMiniBoss			\Default Work Unit\Music\SetMiniBoss	
+	2426491381	SetTutorial			\Default Work Unit\Music\SetTutorial	
+	2480836201	SetAdventure			\Default Work Unit\Music\SetAdventure	
+	3827058668	StartMusic			\Default Work Unit\Music\StartMusic	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1021618141	MusicState			\Default Work Unit\MusicState	
+
+State	ID	Name	State Group			Notes
+	748895195	None	MusicState			
+	1560169506	Boss	MusicState			
+	2587700427	MiniBoss	MusicState			
+	2614187895	Adventure	MusicState			
+	2965943951	Beserk	MusicState			
+	3762955427	Tutorial	MusicState			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	558569800	Berserk Music	Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\.cache\Mac\SFX\Berserk Music_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Gameplay Music\Beserk\Berserk Music\Berserk Music		7526544
+	652873348	Tutorial Music	Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\.cache\Mac\SFX\Tutorial Music_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Gameplay Music\Tutorial\Tutorial Music\Tutorial Music		14464944
+	756091087	Mini Boss	Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\.cache\Mac\SFX\Mini Boss_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Gameplay Music\MiniBoss\Mini Boss\Mini Boss		11289744
+	817044492	Adventure Music	Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\.cache\Mac\SFX\Adventure Music_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Gameplay Music\Adventure\Adventure Music\Adventure Music		7526544
+	969198733	BossIntro	Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\.cache\Mac\SFX\BossIntro_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Gameplay Music\Boss Music\Intro\BossIntro		5644908
+	981320797	BossBridge	Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\.cache\Mac\SFX\BossBridge_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Gameplay Music\Boss Music\Bridge\BossBridge		5644908
+

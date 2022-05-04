@@ -205,6 +205,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1acd0acfcf7cf4882d116fb6d41e26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8c3431f89878b447b852b7b2af0a451b, type: 2}
   damage: 15
   lifetime: 100
   xSpeed: 18
@@ -223,4 +227,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a7b03cd04ae3e64883d18041fba990a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 0}
+  menu: {fileID: 11400000, guid: 459bfbfae1a483c409e5842d2b8828d1, type: 2}

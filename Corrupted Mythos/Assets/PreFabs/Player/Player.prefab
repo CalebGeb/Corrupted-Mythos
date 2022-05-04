@@ -10144,6 +10144,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fb75f4e21332ca439d6109b752563e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pattack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8c3431f89878b447b852b7b2af0a451b, type: 2}
   damage: 50
   impact: {fileID: 974081440}
   swoosh: {fileID: 7202062259335477679, guid: 6f4b87230e78c834c8e2e702f420132a, type: 3}
@@ -10256,6 +10260,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35532c4a863bba24383ce5b1f571f2c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  death:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  pdamage:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   berserk: 0
   berserking: 0
   rageCounter: 0
@@ -10341,6 +10353,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fda9709c5969f144c8d84ec90b79a9f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pjump:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 530a6e09c0e1642dfb5aad9ab24b8074, type: 2}
   m_JumpForce: 700
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
@@ -10373,6 +10389,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bdc741a9e7d6e84e83b616acd010780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Beserk:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  Adventure:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   cntrler: {fileID: 8994769088578590080}
   animatior: {fileID: 4997921701202795486}
   playerHP: {fileID: 8994769088578590087}
@@ -10391,6 +10415,7 @@ MonoBehaviour:
   SlamEffect: {fileID: 5720990074273928064}
   beserkLocator: {fileID: 0}
   GodEffectPref: {fileID: 1882829321072626833, guid: 6756d8b4a1198d04e8071ac3c6766ac5, type: 3}
+  isDash: 0
 --- !u!114 &8338061352963660422
 MonoBehaviour:
   m_ObjectHideFlags: 0

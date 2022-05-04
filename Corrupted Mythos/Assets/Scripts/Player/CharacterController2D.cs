@@ -4,6 +4,8 @@ using System.Collections;
 
 public class CharacterController2D : MonoBehaviour
 {
+	public AK.Wwise.Event pjump;
+
 	// grounded fix: change the bottom circle collider and only change isGrounded on collison with only that collider
 	[SerializeField] public float m_JumpForce = 400f;							// Amount of force added when the player jumps.
 	[Range(0, 1)] [SerializeField] private float m_CrouchSpeed = .36f;			// Amount of maxSpeed applied to crouching movement. 1 = 100%
@@ -149,6 +151,7 @@ public class CharacterController2D : MonoBehaviour
 		if (jump && canJump)
 		{
 			// Add a vertical force to the player.
+			pjump.Post(gameObject);
 			m_Grounded = false;
 			m_Rigidbody2D.velocity = new Vector2(m_Rigidbody2D.velocity.x, 0f);
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));

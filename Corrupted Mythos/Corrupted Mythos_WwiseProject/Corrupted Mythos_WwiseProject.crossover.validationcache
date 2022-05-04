@@ -29,10 +29,10 @@
 	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos_WwiseIntegrationTemp\Corrupted Mythos_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1649962109" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1649962222" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1649962222" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1649962222" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\States\Default Work Unit.wwu" DateLow="1649962222" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1651627410" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\States\Default Work Unit.wwu" DateLow="1651627410" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1649962222" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1649963113" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1651638093" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Queries\Factory Queries.wwu" DateLow="1649962222" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1649962222" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1649962222" DateHigh="0"/>
@@ -41,18 +41,21 @@
 	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1649962222" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1649962222" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1649962222" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1649962222" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Interactive Music Hierarchy\Music.wwu" DateLow="1651638093" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1651627410" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1649962222" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Events\Default Work Unit.wwu" DateLow="1649963113" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Events\SFX.wwu" DateLow="1651638093" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Events\Music.wwu" DateLow="1651628336" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Events\Default Work Unit.wwu" DateLow="1651638093" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Effects\Factory Effects.wwu" DateLow="1649962222" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1649962222" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1649962222" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Corrupted Mythos_WwiseProject.wproj" DateLow="1649962222" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Corrupted Mythos_WwiseProject.crossover.wsettings" DateLow="1649963113" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Corrupted Mythos_WwiseProject.crossover.wsettings" DateLow="1651627418" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1649962222" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1649962222" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1649963113" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1649962222" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1649962222" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1649963113" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Corrupted-Mythos\Corrupted Mythos\Corrupted Mythos_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1651638093" DateHigh="0"/>
 </ValidationCache>

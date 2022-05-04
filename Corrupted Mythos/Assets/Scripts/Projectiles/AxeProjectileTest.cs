@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class AxeProjectileTest : MonoBehaviour
 {
+    public AK.Wwise.Event attack;
+
     [Tooltip("The damage dealt when an enemy is hit")]
     [SerializeField]
     int damage;
@@ -31,6 +33,7 @@ public class AxeProjectileTest : MonoBehaviour
 
     void Start()
     {
+        attack.Post(gameObject);
         xOriginal = transform.position.x;
         yOriginal = transform.position.y;
 
@@ -59,6 +62,7 @@ public class AxeProjectileTest : MonoBehaviour
         {
             if(collision.gameObject.tag == "enemy")
             {
+                
                 collision.gameObject.GetComponent<EnemyHealth>().minusHealth(damage);
                 FindObjectOfType<AudioManager>().PlaySound("swing");
             }

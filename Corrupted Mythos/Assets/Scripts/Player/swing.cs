@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class swing : MonoBehaviour
 {
+    public AK.Wwise.Event pattack;
     [SerializeField]
     private int damage = 50;
     private int berserkDamage = 100;
@@ -56,6 +57,7 @@ public class swing : MonoBehaviour
             bonus = mod;
             //t = 0;
             manager.PlaySound("swing");
+            pattack.Post(gameObject);
 
             //For special held action
             if (held)

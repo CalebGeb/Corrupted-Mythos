@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{907AE70F-4C7B-439F-BE87-2EBA0D0E6A40}" SchemaVersion="103">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{907AE70F-4C7B-439F-BE87-2EBA0D0E6A40}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{907AE70F-4C7B-439F-BE87-2EBA0D0E6A40}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="MusicState" ID="{D09E004A-A79D-4D01-A67D-9E5F266140AA}">
+					<ChildrenList>
+						<State Name="None" ID="{DBE9D956-6EA4-4C10-8698-1475D0DF41AD}"/>
+						<State Name="Tutorial" ID="{E147552C-D2E4-4AF9-B72D-F5986DD7986C}"/>
+						<State Name="Adventure" ID="{7664FE87-C7A2-47DA-8C20-BE1890CFE3A4}"/>
+						<State Name="MiniBoss" ID="{76DCD987-E8C1-41F0-861B-F42274A4D582}"/>
+						<State Name="Beserk" ID="{2E6FEC16-1FA8-4E02-A68E-5E99500B347C}"/>
+						<State Name="Boss" ID="{DD5FA55F-3A35-4978-A1A2-95A008E45A00}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
